@@ -15,6 +15,7 @@ import { addSegmentation as addSegmentationToState } from './segmentationState';
 function addSegmentations(
   segmentationInputArray: SegmentationPublicInput[]
 ): void {
+  console.log("----from the forked package-----");
   validateSegmentationInput(segmentationInputArray);
 
   segmentationInputArray.map((segInput) => {
